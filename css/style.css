@@ -1,0 +1,324 @@
+/* Write CSS code here */
+body{
+    margin: 0;
+}
+/* header navigation menu  */
+header.main_header{
+    background-color: #44484A;
+    padding: 4px 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+section.brand_logo img{
+    height: 40px;
+    width: 40px;
+}
+nav.nav_container{
+    width: 80%;
+}
+nav.nav_container ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    }
+nav.nav_container ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav.nav_container ul li a:hover{
+    border-bottom:1px solid  rgb(171, 171, 229);
+}
+h3.brand_name{
+    color: whitesmoke;
+    padding: 0 15px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* hero unit section css  */
+div.hero_mainsection{
+    background: url("/images/corporate.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:cover;
+    height:auto;
+    /* display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%; */
+    text-align: center;
+    padding:9.5em 0;
+    /* width: 100%; */
+}
+h1.hero_headone{
+    color: #F5F5F5;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-top: 55px;
+    font-size:35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2.hero_headtwo{
+    color: #F5F5F5;
+    letter-spacing: .5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    padding: 20px 0;
+}
+h2.hero_headthree{
+    color: #F5F5F5;
+    letter-spacing: .5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+button.hero_button{
+    background-color: #44484A;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    letter-spacing: .5px;
+}
+button.hero_button:hover{
+    background-color: rgb(171, 171, 229);
+}
+section.herobtn_sec{
+    margin: 10px 0;
+}
+/* hero section container two */
+section.hero_containertwo{
+    background-color: rgb(234, 229, 219);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-items: center ;
+    padding: 15px 20px;
+    height: auto;
+}
+article.sub_containercol{
+    box-shadow: 1px 1px 10px gray;
+    padding: 10px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+h3.subcontainer_head{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+}
+h4.subcontainer_head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p.subcontainer_para{
+    padding:  0 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a.anchor_section{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+a.anchor_section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;   
+}
+/* footer css */
+footer{
+    background-color:#26272B;
+    padding: 20px 0;
+}
+footer div.footermain_container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 20% 20% 20% auto;
+    column-gap: 10px;
+}
+ul.footer_undorderedlist {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    line-height:20px;
+    padding: 0 30px;
+}
+h4.footer_head1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: wheat;
+    font-weight: 100;
+}
+li.footer_para{
+    font-weight: 100;
+    font-size: 13px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p.footer_para2{
+    color: wheat;
+    font-weight: 100;
+}
+li.fourth_list{
+    color: aliceblue;
+    font-weight:100;
+    font-size: 14px;
+    line-height: 20px;
+}
+li>i{
+    color: aliceblue;
+}
+ul.footer_sociallist{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+ul.footer_sociallist>.social_list>a{
+    padding: 0 5px;
+    color: #26272B;
+}
+i.fa-facebook{
+    background-color: aliceblue;
+    padding: 15px 17px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+i.fa-twitter{
+    background-color: aliceblue;
+    padding: 15px 17px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+i.fa-dribbble{
+    background-color: aliceblue;
+    padding: 15px 17px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+i.fa-linkedin{
+    background-color: aliceblue;
+    padding: 15px 17px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+
+/* media query css */
+@media only screen and (max-width:1320px){
+    footer div.footermain_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+    }
+    .footer_socialcontainer {
+        padding: 0 25px;
+    }
+}
+@media only screen and (max-width:1020px){
+    section.hero_containertwo{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       row-gap: 20px;
+    }
+    h2.hero_headtwo{
+        padding: 0 15px;
+    }
+    nav.nav_container{
+        padding: 0 10px;
+    }
+}
+@media only screen and (max-width:700px) {
+
+    section.hero_containertwo{
+       display: grid;
+       grid-template-columns: 1fr;
+       row-gap: 20px;
+    } 
+    a.anchor_section img{
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;   
+    }
+    nav.nav_container ul{
+        flex-wrap: wrap;
+    }
+    footer div.footermain_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 10px;
+
+    }
+    i.fa-facebook{
+        background-color: aliceblue;
+        padding: 14px 16px;
+        font-size: 13px;
+        border-radius: 30px;
+    }
+    i.fa-twitter{
+        background-color: aliceblue;
+        padding: 14px 16px;
+        font-size: 13px;
+        border-radius: 30px;
+    }
+    i.fa-dribbble{
+        background-color: aliceblue;
+        padding: 14px 16px;
+        font-size: 13px;
+        border-radius: 30px;
+    }
+    i.fa-linkedin{
+        background-color: aliceblue;
+        padding: 14px 16px;
+        font-size: 13px;
+        border-radius: 30px;
+    }
+}
+@media only screen and (max-width:540px){
+    footer div.footermain_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+    i.fa-facebook{
+        background-color: aliceblue;
+        padding: 13px 15px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    i.fa-twitter{
+        background-color: aliceblue;
+        padding: 13px 15px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    i.fa-dribbble{
+        background-color: aliceblue;
+        padding: 13px 15px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+    i.fa-linkedin{
+        background-color: aliceblue;
+        padding: 13px 15px;
+        font-size: 12px;
+        border-radius: 30px;
+    }
+}
+@media only screen and (max-width:400px) {
+
+    section.hero_containertwo{
+       display: grid;
+       grid-template-columns:auto;
+       row-gap: 20px;
+    } 
+    a.anchor_section img{
+        height: 150px;
+        width: 150px;
+        border-radius: 200px;   
+    }
+    h1.hero_headone{
+        padding: 0 5px;
+    }
+    footer div.footermain_container{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+}
