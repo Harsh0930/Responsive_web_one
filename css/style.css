@@ -42,7 +42,7 @@ h3.brand_name{
 
 /* hero unit section css  */
 div.hero_mainsection{
-    background: url("/images/corporate.jpg");
+    background: url("images/corporate.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size:cover;
