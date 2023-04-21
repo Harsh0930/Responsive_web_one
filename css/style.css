@@ -42,7 +42,7 @@ h3.brand_name{
 
 /* hero unit section css  */
 div.hero_mainsection{
-    background: url("/images/corporate.jpg");
+    background: url("images/corporate.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size:cover;
@@ -134,6 +134,12 @@ footer div.footermain_container{
     grid-template-rows: 1fr;
     grid-template-columns: 20% 20% 20% 20% auto;
     column-gap: 10px;
+}
+.footersub_container2 ul>li>a{
+    color: #3B2156;
+}
+.footersub_container3 ul>li>a{
+    color: #3B2156;
 }
 ul.footer_undorderedlist {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
